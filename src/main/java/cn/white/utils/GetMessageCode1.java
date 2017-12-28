@@ -22,8 +22,8 @@ import java.util.Random;
  */
 public class GetMessageCode1 {
     private static final String QUERY_PATH = "https://api.miaodiyun.com/20150822/industrySMS/sendSMS";
-    private static final String ACCOUNT_SID = "xxxxx";
-    private static final String AUTH_TOKEN = "xxxxx";
+    private static final String ACCOUNT_SID = "xx";
+    private static final String AUTH_TOKEN = "xx";
 
     public static String getCode(String telephone) {
         String random = getSms();
